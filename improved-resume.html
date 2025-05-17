@@ -234,6 +234,11 @@
         .education-school {
             color: #4a5568;
         }
+
+        .education-class {
+            color: #4a5568;
+            font-size: 0.75em;
+        }
         
         /* Certifications Section */
         .certifications-list {
@@ -270,6 +275,10 @@
             font-size: 0.85em;
             color: #718096;
         }
+
+        .klass{
+            
+        }
         
         /* Media Queries */
         @media (max-width: 768px) {
@@ -297,7 +306,7 @@
     <header>
         <div class="header-content">
             <h1>Richard Kweku Aikins</h1>
-            <h2>Mobile App & Backend Developer | Cloud Solutions Architect</h2>
+            <h2>Software Engineer | Mobile | Web | Cloud Solutions Architect</h2>
         </div>
         <div class="contact-info">
             <p>+233242728115</p>
@@ -311,81 +320,30 @@
         <section>
             <h3 class="section-title">Professional Summary</h3>
             <div class="summary">
-                <p>Versatile Full Stack Developer with 8+ years of expertise in mobile application development and backend systems. Specialized in Flutter, Laravel, and Vue.js with a proven track record of architecting and deploying robust cloud-based solutions. Experienced in AWS cloud services with strong technical leadership capabilities. Passionate about domain-driven design and modular architecture approaches for scalable applications.</p>
+                <p>Versatile Full Stack Developer with 8+ years of expertise in mobile application development and backend systems. 
+                    Specialized in Flutter, Laravel, and Vue.js with a proven track record of architecting and deploying robust cloud-based solutions.
+                    Experienced in leading cross-functional teams and managing projects from conception to deployment. 
+                    Experienced in AWS cloud services with strong technical leadership capabilities. 
+                    Passionate about domain-driven design and modular architecture approaches for scalable applications.</p>
             </div>
         </section>
         
         <section>
             <h3 class="section-title">Technical Skills</h3>
-            <div class="skills-container">
+            <div class="skills-containers">
                 <div class="skill-category">
-                    <h4>Mobile Development</h4>
                     <div class="skills-list">
-                        <span class="skill-tag">Flutter</span>
-                        <span class="skill-tag">Dart</span>
-                        <span class="skill-tag">Android</span>
-                        <span class="skill-tag">iOS</span>
-                        <span class="skill-tag">Firebase</span>
-                        <span class="skill-tag">State Management</span>
-                        <span class="skill-tag">BLoC Pattern</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h4>Backend Development</h4>
-                    <div class="skills-list">
+                        <span class="skill-tag">Flutter/Dart</span>
                         <span class="skill-tag">Laravel</span>
-                        <span class="skill-tag">PHP</span>
                         <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Flask</span>
-                        <span class="skill-tag">RESTful APIs</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">Database Design</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h4>Frontend Technologies</h4>
-                    <div class="skills-list">
-                        <span class="skill-tag">Vue.js</span>
-                        <span class="skill-tag">HTML5</span>
-                        <span class="skill-tag">CSS3</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">Responsive Design</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h4>Cloud & DevOps</h4>
-                    <div class="skills-list">
-                        <span class="skill-tag">AWS</span>
-                        <span class="skill-tag">Azure</span>
-                        <span class="skill-tag">GCP</span>
-                        <span class="skill-tag">CI/CD</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Cloud Architecture</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h4>Databases</h4>
-                    <div class="skills-list">
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">PostgreSQL</span>
-                        <span class="skill-tag">MongoDB</span>
-                        <span class="skill-tag">Oracle</span>
-                        <span class="skill-tag">Firebase Firestore</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h4>Other Skills</h4>
-                    <div class="skills-list">
+                        <span class="skill-tag">RESTful APIs & GraphQL</span>
+                        <span class="skill-tag">AWS/GCP</span>
+                        <span class="skill-tag">Node.js</span>
                         <span class="skill-tag">Machine Learning</span>
-                        <span class="skill-tag">Project Management</span>
-                        <span class="skill-tag">Technical Leadership</span>
-                        <span class="skill-tag">UI/UX Design</span>
-                        <span class="skill-tag">Agile/Scrum</span>
+                        <span class="skill-tag">CI/CD Pipelines</span>
+                        <span class="skill-tag">UI/UX Design Principles</span>
+                        <span class="skill-tag">JavaScript (Vue.js/React.js)</span>
+                        <span class="skill-tag">Database Design (MySQL, PostgreSQL, MongoDB, Firebase)</span>
                     </div>
                 </div>
             </div>
@@ -393,11 +351,10 @@
         
         <section>
             <h3 class="section-title">Professional Experience</h3>
-            
             <div class="experience-item">
                 <div class="experience-header">
                     <span class="experience-title">Mobile Application Developer</span>
-                    <span class="experience-date">July 2024 - Present</span>
+                    <span class="experience-date">July 2024 - May 2025</span>
                 </div>
                 <div class="experience-company">Ownkey</div>
                 <div class="experience-location">Accra, Greater Accra Region, Ghana</div>
@@ -432,10 +389,12 @@
                 <div class="experience-company">ARK Softwarez</div>
                 <div class="experience-location">Winneba, Central Region, Ghana</div>
                 <ul class="achievements">
-                    <li>Developed and launched 7 successful Flutter applications for various clients across different industries, generating over $100K in revenue.</li>
+                    <li>Developed and launched 7 successful Flutter and web applications for various clients across different industries, generating over $100K in revenue.</li>
                     <li>Implemented complex state management solutions using BLoC pattern and Provider, resulting in performant and responsive applications.</li>
                     <li>Created reusable component libraries that reduced development time for new projects by 40% while maintaining consistency.</li>
                     <li>Designed and implemented secure RESTful API integrations with Laravel backends, ensuring data integrity and optimal performance.</li>
+                    <!-- laravel  -->
+
                 </ul>
             </div>
             
@@ -483,11 +442,31 @@
                     <li>Participated in the full software development lifecycle from requirements gathering to deployment and maintenance.</li>
                 </ul>
             </div>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="experience-title">Information Technology Tutor</span>
+                    <span class="experience-date">September 2016 - </span>
+                </div>
+                <div class="experience-company">Ghana Education Service</div>
+                <div class="experience-location">Central Region, Ghana</div>
+                <ul class="achievements">
+                    <li>Developed and delivered engaging curriculum for Information Technology subjects to students in junior and senior high schools.</li>
+                    <li>Implemented innovative teaching methods that improved student engagement and understanding of complex IT concepts.</li>
+                    <li>Organized extracurricular activities and workshops to enhance students' practical skills in programming and web development.</li>
+                    <li>Mentored students in various technology-related competitions, leading to several awards and recognitions.</li>
+                </ul>
+            </div>
         </section>
         
         <section>
             <h3 class="section-title">Key Projects</h3>
             <div class="projects-container">
+                <div class="project-item">
+                    <div class="project-title">Attendance Management System with Facial Recognition</div>
+                    <div class="project-tech">Laravel, Vue.js, Flask, Machine Learning, Facial Recognition, AWS</div>
+                    <p>Web application for educational institutions to manage attendance using facial recognition technology. Integrated with AWS for cloud storage and analytics.</p>
+                </div>
+
                 <div class="project-item">
                     <div class="project-title">Food Delivery Platform</div>
                     <div class="project-tech">Flutter, Laravel, AWS, Payment Integration</div>
@@ -495,19 +474,13 @@
                 </div>
                 
                 <div class="project-item">
-                    <div class="project-title">Health Monitoring System</div>
-                    <div class="project-tech">Flutter, Firebase, Machine Learning</div>
-                    <p>Cross-platform application for health monitoring with features like medication reminders, health metrics tracking, and predictive analytics using machine learning algorithms.</p>
+                    <div class="project-title">Infoctess Koneqt</div>
+                    <div class="project-tech">Flutter, Firebase, Restful APIs</div>
+                    <p>Cross-platform application for the student association to help members get access to study materials, events, and community discussions. Integrated with Firebase for real-time data synchronization.</p>
                 </div>
 
                 <div class="project-item">
-                    <div class="project-title">NGO Management Platform</div>
-                    <div class="project-tech">Laravel, Vue.js, AWS, Analytics</div>
-                    <p>Custom-built platform for NGO operations management, including donation processing, volunteer coordination, and impact reporting with data visualization dashboards.</p>
-                </div>
-                
-                <div class="project-item">
-                    <div class="project-title">E-learning Mobile Application</div>
+                    <div class="project-title">MathsAide - E-learning Mobile Application</div>
                     <div class="project-tech">Flutter, Node.js, MongoDB</div>
                     <p>Interactive learning platform with video lectures, quizzes, progress tracking, and social learning features. Supported offline access and synchronized learning across devices.</p>
                 </div>
@@ -519,17 +492,19 @@
             <div class="education-item">
                 <div class="education-header">
                     <span class="education-degree">Bachelor of Science - Information Technology</span>
-                    <span class="education-date">2021 - 2024</span>
+                    <span class="education-date">2020 - 2024</span>
                 </div>
                 <div class="education-school">University of Education, Winneba</div>
+                <p class="education-class">First Class Honours</p>
             </div>
             
             <div class="education-item">
                 <div class="education-header">
-                    <span class="education-degree">Diploma in Education - Science</span>
+                    <span class="education-degree">Diploma in Education - Teacher Education</span>
                     <span class="education-date">2013 - 2016</span>
                 </div>
                 <div class="education-school">Foso College of Education</div>
+                <p class="education-class">Second Class Upper Division</p>
             </div>
             
             <div class="education-item">
@@ -543,13 +518,15 @@
         
         <section>
             <h3 class="section-title">Certifications</h3>
+            <!-- Google Africa Developer Scholarship – Flutter Track (2022)
+            Meta Front-End Developer Certificate (Coursera – 2023) -->
             <div class="certifications-list">
                 <div class="certification-item">AWS Certified Cloud Practitioner</div>
+                <div class="certification-item">Google Africa Developer Scholarship - Android Development</div>
+                <div class="certification-item">Andela/Meta React Learning Program</div>
+                <div class="certification-item">Google Cloud Skill Boost Essentials</div>
                 <div class="certification-item">Oracle Certified Associate, Java SE 8 Programmer</div>
                 <div class="certification-item">Oracle Database 12c: SQL Fundamentals</div>
-                <div class="certification-item">Introduction to Programming Using Java</div>
-                <div class="certification-item">Flutter Development Bootcamp</div>
-                <div class="certification-item">Google Cloud Essentials</div>
             </div>
         </section>
         
