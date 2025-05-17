@@ -206,7 +206,10 @@
             font-size: 0.9em;
             margin-bottom: 8px;
         }
-        
+        .project-desc{
+            color: #4a5568;
+            font-size: 0.8em;
+        }
         /* Education Section */
         .education-item {
             margin-bottom: 15px;
@@ -238,18 +241,20 @@
         .education-class {
             color: #4a5568;
             font-size: 0.75em;
+            display: inline;
+            margin: 0;
         }
         
         /* Certifications Section */
         .certifications-list {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
+            gap: 10px;
         }
         
         .certification-item {
             background-color: #f8fafc;
-            padding: 12px;
+            padding: 10px;
             border-radius: 5px;
             font-size: 0.95em;
         }
@@ -451,34 +456,34 @@
             </div>
         </section>
         
-        <section>
+        <!-- <section>
             <h3 class="section-title">Key Projects</h3>
             <div class="projects-container">
                 <div class="project-item">
                     <div class="project-title">Attendance Management System with Facial Recognition</div>
                     <div class="project-tech">Laravel, Vue.js, Flask, Machine Learning, Facial Recognition, AWS</div>
-                    <p>Web application for educational institutions to manage attendance using facial recognition technology. Integrated with AWS for cloud storage and analytics.</p>
+                    <p class="project-desc">Web application for educational institutions to manage attendance using facial recognition technology. Integrated with AWS for cloud storage and analytics.</p>
                 </div>
 
                 <div class="project-item">
                     <div class="project-title">Food Delivery Platform</div>
                     <div class="project-tech">Flutter, Laravel, AWS, Payment Integration</div>
-                    <p>Comprehensive mobile application for food ordering and delivery with real-time tracking, secure payment processing, and vendor management. Achieved 10,000+ downloads with 4.8/5 rating.</p>
+                    <p class="project-desc">Comprehensive mobile application for food ordering and delivery with real-time tracking, secure payment processing, and vendor management. Achieved 10,000+ downloads with 4.8/5 rating.</p>
                 </div>
                 
                 <div class="project-item">
                     <div class="project-title">Infoctess Koneqt</div>
                     <div class="project-tech">Flutter, Firebase, Restful APIs</div>
-                    <p>Cross-platform application for the student association to help members get access to study materials, events, and community discussions. Integrated with Firebase for real-time data synchronization.</p>
+                    <p class="project-desc">Cross-platform application for the student association to help members get access to study materials, events, and community discussions. Integrated with Firebase for real-time data synchronization.</p>
                 </div>
 
                 <div class="project-item">
                     <div class="project-title">MathsAide - E-learning Mobile Application</div>
                     <div class="project-tech">Flutter, Node.js, MongoDB</div>
-                    <p>Interactive learning platform with video lectures, quizzes, progress tracking, and social learning features. Supported offline access and synchronized learning across devices.</p>
+                    <p class="project-desc">Interactive learning platform with video lectures, quizzes, progress tracking, and social learning features. Supported offline access and synchronized learning across devices.</p>
                 </div>
             </div>
-        </section>
+        </section> -->
         
         <section>
             <h3 class="section-title">Education</h3>
@@ -487,8 +492,8 @@
                     <span class="education-degree">Bachelor of Science - Information Technology</span>
                     <span class="education-date">2020 - 2024</span>
                 </div>
-                <div class="education-school">University of Education, Winneba</div>
-                <p class="education-class">First Class Honours</p>
+                <div class="education-school">University of Education, Winneba | <span class="education-class">First Class Honours</span></div>
+                
             </div>
             
             <div class="education-item">
@@ -496,8 +501,8 @@
                     <span class="education-degree">Diploma in Education - Teacher Education</span>
                     <span class="education-date">2013 - 2016</span>
                 </div>
-                <div class="education-school">Foso College of Education</div>
-                <p class="education-class">Second Class Upper Division</p>
+                <div class="education-school">Foso College of Education | <span class="education-class">Second Class Upper Division</span></div>
+                
             </div>
             
             <div class="education-item">
@@ -513,7 +518,7 @@
             <h3 class="section-title">Certifications</h3>
             <!-- Google Africa Developer Scholarship – Flutter Track (2022)
             Meta Front-End Developer Certificate (Coursera – 2023) -->
-            <div class="certifications-list">
+            <div class="certifications-lists">
                 <div class="certification-item">AWS Certified Cloud Practitioner</div>
                 <div class="certification-item">GADs Scholarship - Android Development</div>
                 <div class="certification-item">Andela/Meta React Learning Program</div>
